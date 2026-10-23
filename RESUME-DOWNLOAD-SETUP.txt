@@ -1,0 +1,12 @@
+Resume download setup
+
+The portfolio buttons now point to:
+  /Mridul-Mehta-Resume.pdf
+
+Before deploying, place your actual resume PDF at:
+  portfolio-stage/public/Mridul-Mehta-Resume.pdf
+
+The filename must match exactly (including capitalization). Vite serves files in
+public/ from the site root, so the browser's Download Resume button will download
+that PDF. The PDF itself was not included in the original uploaded ZIP, so you
+must add it before deployment; otherwise the link will return a 404.
